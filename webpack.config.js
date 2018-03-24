@@ -7,7 +7,7 @@ module.exports = {
     filename: 'bundle.js',
     libraryTarget: 'commonjs2'
   },
-  devtool: 'source-map',
+  devtool: 'inline-source-map',
   resolve: {
     extensions: ['.js', '.jsx', '*'],
     alias: {
